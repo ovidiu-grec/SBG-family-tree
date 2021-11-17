@@ -14,7 +14,7 @@ class FamilyTest {
         Family family = new Family("mom", "dad");
         assertEquals(mom, family.getMatriarch().getName());
         assertEquals(dad, family.getPatriarch().getName());
-        
+
         assertEquals(Gender.FEMALE, family.getMatriarch().getGender());
         assertEquals(Gender.MALE, family.getPatriarch().getGender());
     }

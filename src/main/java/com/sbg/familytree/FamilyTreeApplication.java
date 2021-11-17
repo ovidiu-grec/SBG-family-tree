@@ -1,4 +1,4 @@
-package com.familytree.familytree;
+package com.sbg.familytree;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

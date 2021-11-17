@@ -8,9 +8,9 @@
 		<version>2.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.familytree</groupId>
+	<groupId>com.sbg</groupId>
 	<artifactId>family-tree</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>family-tree</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -27,6 +27,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.7.0-M1</version>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
